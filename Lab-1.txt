@@ -1,0 +1,20 @@
+Design a class Account :
+private String acno;
+private String name;
+private int balance
+
+add setter /getter  , constructors
+method:
+   public void deposit(int amount);
+   public void withdraw(int amount);
+
+
+Inherit Account to make : Savings & Current
+override methods in Current as withdraw :
+balance can not be less than 5000
+if occurs throws Exception with message : Insuffcient balance
+override methods in Savings as :
+balance can not be less than 1000
+if occurs throws Exception with message : Insuffcient balance
+
+Make objects of Savings & Current , test all methods.
